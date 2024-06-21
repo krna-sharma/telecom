@@ -24,8 +24,12 @@ Installation
 3. Install dependencies:
    pip install -r requirements.txt
 
+4. Configure database:
+   Run mysql.sql file in database.
+   Update database configuration files to constant.py
+
 Running the Application
-1. uvicorn main:app --reload
+1. uvicorn api:app --reload
    The application will be available at `http://127.0.0.1:8000
 
 API Endpoints
